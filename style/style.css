@@ -2,6 +2,7 @@ body{
   display: flex;
   flex.direction: column;
   justify-content: center;
+  justify-content: space-around;
   align-content: center;
   align-items: center;
   background-image:url("../images/DC_background.png");
@@ -12,6 +13,7 @@ header{
   background-color: rgba(114, 172, 248, 0.73);
   padding: 50pt;
   margin-top: 75pt;
+  margin-bottom: 75pt;
   text-align: center;
 }
 
@@ -42,13 +44,14 @@ button{
   color: white;
   background-color:rgba(114, 172, 248, 1)
 }
-.roundOne{
+.round, .question{
   display: none;
 
 
 }
 .identifyImage{
-  width: 50%;
+  width: 100pt;
+  height:auto;
   display: block;
   float: left;
 }

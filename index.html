@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="style/normalize.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
+    <link rel="shortcut icon" href="images/DCflag.jpg">
     <title>DC Trivia</title>
   </head>
   <body>
@@ -14,35 +15,41 @@
           <button class ="play">Let's Play!</button>
         </div>
 
-        <div class = "roundOne">
+        <div class = "round" id ="roundOne">
           <h4>DC Trivia</h4>
           <h2>Round One: Name that Building</h2>
-          <h2>Name the iconic DC building pictured below.</h2>
-          <div class = "questionOne">
-            <img class "identifyImage" src = "images/ExecutiveOfficeBuilding.jpg">
-            <!-- image origin http://s3.amazonaws.com/smithgroupjjr/project_images/images/000/001/363/normal/EisenhowerExecutiveOfficeBuilding-1-th.jpg?1366174898 -->
+          <h2 class = "question-text"></h2>
+          <div class = "question">
+            <img class = "question-image" src = "">
+            <div class = "options">
+              <button class = "answerButton"></button>
+              <button class = "answerButton"></button>
+              <button class = "answerButton"></button>
+            </div>
+          </div>
+          <!-- <div class = "question" id ="questionOne">
+            <img class = "identifyImage" src = "images/ExecutiveOfficeBuilding.jpg">
             <div class = "multipleAnswers">
               <button class = "correct"> Executive Office Building</button>
               <button class = "incorrect"> Treasury Building</button>
               <button class = "incorrect"> National Portrait Gallery</button>
             </div>
           </div>
-          <div class = "questionTwo">
+          <div class = "question" id = "questionTwo">
             <img class "identifyImage" src = "images/LincolnCottage.jpg">
-            <!-- image origin https://media-cdn.tripadvisor.com/media/photo-s/01/0e/50/31/back-porch-lincoln-cottage.jpg -->
             <div class = "multipleAnswers">
-              <button class = "correct"> Executive Office Building</button>
-              <button class = "incorrect"> Treasury Building</button>
-              <button class = "incorrect"> National Portrait Gallery</button>
+              <button class = "incorrect"> Fort McNair</button>
+              <button class = "correct"> Lincoln's Cottage</button>
+              <button class = "incorrect"> The Marine Barracks </button>
             </div>
-          </div>
+          </div> -->
           <div class = "questionThree">
           </div>
           <div class = "questionFour">
           </div>
           <div class = "questionFive">
           </div>
-          <div class = "score">
+          <div>
             <h2>Total Points: <span class ="score">0</span></h2>
           </div>
         </div>
