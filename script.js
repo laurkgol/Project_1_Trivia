@@ -35,25 +35,28 @@ var game = {
     $('.question-image').attr('src',`${questions[this.currentQuestion].questionImage}`)
      for(var i = 0; i < `${questions[this.currentQuestion].options.length}`; i++){
       $('.answerButton').eq(i).text(`${questions[this.currentQuestion].options[i]}`);
+      if((`${questions[this.currentQuestion].options[i]}`) === `${questions[game.currentQuestion].answer}`){
+        $('.answerButton').addClass('correctAnswer')
+      }
     }
 
 },
 answer: function (){
-      if(`${questions[this.currentQuestion].answer}` == $(".answerButton").clicked.html())
-
     alert("Correct!\n+100");
-    this.currentQuestion += 1;
+    game.currentQuestion += 1;
      game.score = game.score + 100;
     $(".score").html(game.score)
 
- },
-  incorrectAnswer: function(){
-    alert("Sorry, wrong answer.");
-    $("#questionOne").css("display", "none");
-    $("#questionTwo").css("display", "block");
- }
  }
 
+ };
+
 $(".play").on("click", game.home.bind(game));
-$(".correct").on("click", game.answer.bind(game));
-$(".incorrect").on("click", game.incorrectAnswer.bind(game));
+$(".answerButton").on("click", function(){
+  if($('.answerButton').hasClass('correctAnswer')){
+    console.log("working");
+  }else{
+    console.log($('this').text());
+  }
+})
+//$(".answerButton").on("click", game.answer.bind(game));
