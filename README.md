@@ -1,5 +1,10 @@
 # Technologies Used
-# Approach Taken
+* **HTML, CSS, javaScript**
+* **jQuery**
+* **Objects and arrays**
+* **functions and for loops**
+
+#Approach Taken
 #Installation Instructions
 # Unsolved Problems
 # User Stories
