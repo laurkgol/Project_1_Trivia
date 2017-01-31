@@ -113,6 +113,11 @@ $(".answerButton").on("click", function(){
 if(game.currentQuestion == questions.length - 1){
   $(".allQuestions").css("display", "none");
   $(".endofquiz").css("display", "block");
+  if(game.score > 300){
+    $("#over300").css("display", "block");
+  } else{
+    $("#under300").css("display", "block");
+  }
 } else{
   game.home();
 }

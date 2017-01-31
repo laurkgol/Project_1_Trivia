@@ -1,14 +1,20 @@
 # Technologies Used
 * **HTML, CSS, javaScript**
 * **jQuery**
-* **For loops**
-* **If statements**
 * **Objects and arrays**
-# Approach Taken
-# Installation Instructions
-* **Copy URL into browser**
+* **functions and for loops**
+
+#Approach Taken
+* **Set up empty divs in HTML**
+* **Added questions to Object**
+* **Used another object to keep game values and function to interchange trivia questions**
+* **Called function in click event to alert to correct or incorrect answers and advance questions**
+
+#Installation Instructions
+* **Place URL into browser**
 # Unsolved Problems
-* **I had to use margin-top to center the buttons on the page**
+* **Spacing is a bit wonky**
+* **Was not able to add another round**
 # User Stories
 ## Bronze Level
 * **Click "Let's Play" to get to questions**
@@ -30,6 +36,4 @@
 * **DC Flag: https://s-media-cache-ak0.pinimg.com/originals/16/48/87/16488728a4c771820775fb00b5bf5c32.jpg**
 * **Question One: Executive Office Building- http://s3.amazonaws.com/smithgroupjjr/project_images/images/000/001/363/normal/EisenhowerExecutiveOfficeBuilding-1-th.jpg?1366174898**
 * **Question Two: Lincoln's Cottage-https://media-cdn.tripadvisor.com/media/photo-s/01/0e/50/31/back-porch-lincoln-cottage.jpg**
-* **Question Three: Arena Stage- My Facebook pictures**
-* **Question Four: Scottish Rite-My Facebook pictures**
-* **Question Five: Capitol Columns at Arboretum- My Facebook pictures**
+* **Question Three - Five: Taken by Laura Goldstein.
