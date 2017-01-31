@@ -49,8 +49,13 @@ button{
 
 
 }
-.identifyImage{
-  width: 100pt;
+.answerButton{
+  width: 30%;
+  font-size: 15pt;
+  margin: 5pt;
+}
+.question-image{
+  width: 50%;
   height:auto;
   display: block;
   float: left;
@@ -60,3 +65,11 @@ button{
   display: block;
   float: left;
 }
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
