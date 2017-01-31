@@ -32,12 +32,45 @@ var questions = [
       "Arena Stage"
     ],
     answer: "Arena Stage"
+  },
+  {
+    round: 1,
+    questionText: "Name the iconic DC building pictured below",
+    questionImage: "images/ScottishRite.jpg",
+    options: [
+      "National Cathedral",
+      "Scottish Rite of Freemasonry",
+      "Arena Stage"
+    ],
+    answer: "Scottish Rite of Freemasonry"
+  },
+  {
+    round: 1,
+    questionText: "Name the iconic DC location pictured below",
+    questionImage: "images/arboretum.jpg",
+    options: [
+      "Capitol Columns at the National Arboretum",
+      "National Capitol",
+      "Shrine of the Emmaculate Conseption"
+    ],
+    answer: "Capitol Columns at the National Arboretum"
+  },
+  {
+    round: 1,
+    questionText: "Name the iconic DC location pictured below",
+    questionImage: "images/arboretum.jpg",
+    options: [
+      "Capitol Columns at the National Arboretum",
+      "National Capitol",
+      "Shrine of the Emmaculate Conseption"
+    ],
+    answer: "Capitol Columns at the National Arboretum"
   }
 ]
 
 var game = {
   score: 0,
-  currentQuestion: 2,
+  currentQuestion:0,
   home: function (){
     $(".home").css("display", "none");
     $("#roundOne").css("display", "block")
@@ -47,12 +80,13 @@ var game = {
      for(var i = 0; i < `${questions[this.currentQuestion].options.length}`; i++){
       $('.answerButton').eq(i).text(`${questions[this.currentQuestion].options[i]}`);
       var questionAttachedToButton = `${questions[this.currentQuestion].options[i]}`
-      console.log(questionAttachedToButton)
-      if(questionAttachedToButton === `${questions[game.currentQuestion].answer}`){
+      console.log(questions[this.currentQuestion].answer)
+      if(questionAttachedToButton === questions[this.currentQuestion].answer){
         // console.log(`${questions[this.currentQuestion].options[i]}`)
         //console.log($('answerButton').eq(i).text())
-
-        $('.answerButton').eq(i).addClass('correctAnswer')
+        console.log("Truth!");
+        $('.answerButton').eq(i).addClass("correctAnswer");
+        //`${questions[this.currentQuestion].options[i].addClass('correctAnswer')}`
       }
     }
 
@@ -62,15 +96,18 @@ var game = {
 
 $(".play").on("click", game.home.bind(game));
 $(".answerButton").on("click", function(){
-  if($('.answerButton').hasClass('correctAnswer')){
+  if($(this).hasClass('correctAnswer')){
     alert("Correct!\n+100");
      game.score = game.score + 100;
      game.currentQuestion += 1;
      console.log(game.currentQuestion)
     $(".score").html(game.score)
+  
   }else{
     alert("Sorry, wrong answer");
      game.currentQuestion += 1;
+
   }
+  game.home();
 })
 //$(".answerButton").on("click", game.answer.bind(game));

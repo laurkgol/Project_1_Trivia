@@ -59,6 +59,14 @@ button{
   height:auto;
   display: block;
   float: left;
+  margin-bottom: 15%;
+  margin-top: 5%;
+  border-color:  #e1c49a;
+  border-style: solid;
+  border-width: 30px;
+  box-shadow: 10px 10px;
+
+
 }
 .multipleAnswer{
   width: 100pt;
@@ -73,3 +81,6 @@ button{
      clear: both;
      height: 0;
      }
+.endofquiz{
+  display: none;
+}
