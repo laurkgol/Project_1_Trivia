@@ -36,4 +36,4 @@
 * **DC Flag: https://s-media-cache-ak0.pinimg.com/originals/16/48/87/16488728a4c771820775fb00b5bf5c32.jpg**
 * **Question One: Executive Office Building- http://s3.amazonaws.com/smithgroupjjr/project_images/images/000/001/363/normal/EisenhowerExecutiveOfficeBuilding-1-th.jpg?1366174898**
 * **Question Two: Lincoln's Cottage-https://media-cdn.tripadvisor.com/media/photo-s/01/0e/50/31/back-porch-lincoln-cottage.jpg**
-* **Question Three: RFK Stadium- http://www.andrewclem.com/Baseball/Photos/RFKStadium_north.jpg**
+* **Question Three - Five: Taken by Laura Goldstein.
