@@ -65,6 +65,17 @@ var questions = [
       "Shrine of the Emmaculate Conseption"
     ],
     answer: "Capitol Columns at the National Arboretum"
+  },
+  {
+    round: 2,
+    questionText: "Name the iconic DC location pictured below",
+    questionImage: "images/arboretum.jpg",
+    options: [
+      "Capitol Columns at the National Arboretum",
+      "National Capitol",
+      "Shrine of the Emmaculate Conseption"
+    ],
+    answer: "Capitol Columns at the National Arboretum"
   }
 ]
 
@@ -109,6 +120,18 @@ $(".answerButton").on("click", function(){
 
   }
   $('.answerButton').removeClass("correctAnswer");
+
+if(game.currentQuestion == questions.length - 1){
+  $(".allQuestions").css("display", "none");
+  $(".endofquiz").css("display", "block");
+} else{
   game.home();
+}
+
+
+
+
+
+
 })
 //$(".answerButton").on("click", game.answer.bind(game));
