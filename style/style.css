@@ -106,3 +106,11 @@ button{
 #points{
   margin: 5pt;
 }
+
+#under300, #over300{
+  display: none;
+}
+.endpic{
+  width: 500pt;
+  margin: 10pt;
+}
