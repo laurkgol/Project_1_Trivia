@@ -2,7 +2,7 @@
 var questions = [
   {
     round: 1,
-    questionText: "Name the iconic DC building pictured below",
+    questionText: "Select the iconic DC building pictured below.",
     questionImage: "images/ExecutiveOfficeBuilding.jpg",
     options: [
       "Executive Office Building",
@@ -13,7 +13,7 @@ var questions = [
   },
   {
     round: 1,
-    questionText: "Name the iconic DC building pictured below",
+    questionText: "Select the iconic DC building pictured below.",
     questionImage: "images/LincolnCottage.jpg",
     options: [
       "Fort McNair",
@@ -24,7 +24,7 @@ var questions = [
   },
   {
     round: 1,
-    questionText: "Name the iconic DC building pictured below",
+    questionText: "Select the iconic DC building pictured below.",
     questionImage: "images/ArenaStage.jpg",
     options: [
       "Lincoln Theater",
@@ -35,7 +35,7 @@ var questions = [
   },
   {
     round: 1,
-    questionText: "Name the iconic DC building pictured below",
+    questionText: "Select the iconic DC building pictured below.",
     questionImage: "images/ScottishRite.jpg",
     options: [
       "National Cathedral",
@@ -46,7 +46,7 @@ var questions = [
   },
   {
     round: 1,
-    questionText: "Name the iconic DC location pictured below",
+    questionText: "Select the iconic DC location pictured below.",
     questionImage: "images/arboretum.jpg",
     options: [
       "Capitol Columns at the National Arboretum",
@@ -57,7 +57,7 @@ var questions = [
   },
   {
     round: 1,
-    questionText: "Name the iconic DC location pictured below",
+    questionText: "Select the iconic DC location pictured below.",
     questionImage: "images/arboretum.jpg",
     options: [
       "Capitol Columns at the National Arboretum",

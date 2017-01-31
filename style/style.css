@@ -12,17 +12,26 @@ body{
 #container{
   background-color: rgba(114, 172, 248, 0.73);
   width: 75%;
-  padding: 50pt;
-  margin-top: 75pt;
+  padding-left: 30pt;
+  padding-right: 30pt;
+  padding-top:20pt;
+  padding-bottom: 30pt;
+  margin-top: 60pt;
   margin-bottom: 75pt;
   text-align: center;
 }
-
+h5{
+  font-family: sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 15pt;
+  margin-bottom: 10pt;
+}
 h1{
   font-family: 'Sigmar One', cursive;
   font-size: 100pt;
   color: white;
-  margin-top: 20pt;
+  margin-top: 10pt;
 }
 #subtitle{
   text-align: center;
@@ -33,12 +42,13 @@ h2{
   color: white;
   text-align: left;
   font-size: 20pt;
+  margin: 5pt;
 }
 h4{
   font-family: 'Sigmar One', cursive;
   font-size: 30pt;
   text-align: left;
-  margin: 10pt;
+  margin: 5pt;
 }
 
 button{
@@ -54,13 +64,14 @@ button{
 
 }
 .options{
-  padding-top: 125px;
+  padding-top: 60px;
 }
 .answerButton{
-  width: 20%;
-  font-size: 10pt;
+  width: 30%;
+  font-size: 15pt;
   margin: 5pt;
-  padding: 10pt
+  padding-left: 5pt;
+  padding-right: 5pt;
 }
 .question-image{
   width: 50%;
@@ -68,7 +79,6 @@ button{
   display: block;
   float: left;
   margin-bottom: 5%;
-  margin-top: 5%;
   border-color:  #e1c49a;
   border-style: solid;
   border-width: 30px;
@@ -92,4 +102,7 @@ button{
      }
 .endofquiz{
   display: none;
+}
+#points{
+  margin: 5pt;
 }
