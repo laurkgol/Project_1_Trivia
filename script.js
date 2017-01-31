@@ -102,12 +102,13 @@ $(".answerButton").on("click", function(){
      game.currentQuestion += 1;
      console.log(game.currentQuestion)
     $(".score").html(game.score)
-  
+
   }else{
     alert("Sorry, wrong answer");
      game.currentQuestion += 1;
 
   }
+  $('.answerButton').removeClass("correctAnswer");
   game.home();
 })
 //$(".answerButton").on("click", game.answer.bind(game));
