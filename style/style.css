@@ -62,13 +62,10 @@ button{
   font-size: 20pt;
   border-radius: 10pt;
   color: white;
-  background-color:rgba(114, 172, 248, 1);
+  background-color:rgba(114, 172, 248, 1)
+
 }
-button:focus {
-  text-decoration: none;
-  outline:none;
-  
-}
+
 .round, .question{
   display: none;
 
@@ -93,6 +90,10 @@ button:focus {
   border-style: solid;
   border-width: 30px;
   box-shadow: 2px 2px 4px #000000;
+}
+button:focus {
+  text-decoration: none;
+  outline:none;
 }
 
 
