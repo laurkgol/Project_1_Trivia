@@ -75,7 +75,8 @@ var game = {
     $(".home").css("display", "none");
     $("#roundOne").css("display", "block")
     $(".question").css("display", "block")
-    $('.question-text').text(`${questions[this.currentQuestion].questionText}`)
+    var thisQuestion = questions[this.currentQuestion]
+    $('.question-text').text(thisQuestion.questionText)
     $('.question-image').attr('src',`${questions[this.currentQuestion].questionImage}`)
      for(var i = 0; i < `${questions[this.currentQuestion].options.length}`; i++){
       $('.answerButton').eq(i).text(`${questions[this.currentQuestion].options[i]}`);
