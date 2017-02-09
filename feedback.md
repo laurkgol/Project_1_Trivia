@@ -7,7 +7,7 @@
  | 2 | Performing |
  | 3 | Excelling |
 
- ## Code Comments:
+ ##Code Comments:
 
  Take a look at my inline code comments in the pull request for specific notes on code.
 
