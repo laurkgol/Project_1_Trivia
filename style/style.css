@@ -8,7 +8,9 @@ body{
   background-image:url("../images/DC_background.png");
   color: white;
 }
-
+/*Perhaps use flexbox and a media query for #container to make it responsive(ie when
+  the browser window is resized, it can stack the options below the image instead of
+  letting them flow beneath it.)*/
 #container{
   background-color: rgba(114, 172, 248, 0.73);
   width: 75%;
