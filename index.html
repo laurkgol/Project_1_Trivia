@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
     <link rel="shortcut icon" href="images/DCflag.jpg">
+    <!-- Great use of a favicon! -->
     <title>DC Trivia</title>
   </head>
   <body>
@@ -30,22 +31,9 @@
               <button class = "answerButton"></button>
             </div>
           </div>
-          <!-- <div class = "question" id ="questionOne">
-            <img class = "identifyImage" src = "images/ExecutiveOfficeBuilding.jpg">
-            <div class = "multipleAnswers">
-              <button class = "correct"> Executive Office Building</button>
-              <button class = "incorrect"> Treasury Building</button>
-              <button class = "incorrect"> National Portrait Gallery</button>
-            </div>
-          </div>
-          <div class = "question" id = "questionTwo">
-            <img class "identifyImage" src = "images/LincolnCottage.jpg">
-            <div class = "multipleAnswers">
-              <button class = "incorrect"> Fort McNair</button>
-              <button class = "correct"> Lincoln's Cottage</button>
-              <button class = "incorrect"> The Marine Barracks </button>
-            </div>
-          </div> -->
+          <!-- Go ahead and remove code when you no longer need it before pushing to production -->
+          <!-- Good job on getting it to work by templating into one container for questions instead of
+          creating a separate container for each question -->
         <div class = "clearfix"></div>
           <div>
             <h2 id = "points">Total Points: <span class ="score">0</span></h2>
@@ -53,16 +41,19 @@
         </div>
         </div>
       <div class = "endofquiz">
+        <!-- See if you can consolidate the 'over300' and 'under300' html sections into
+        one section and have your javascript template the one section conditionally
+        on the player's score at the end of the game -->
         <div id ="over300">
         <h4>Congratulations! You are an expert on DC off the beaten track!</h4>
         <h2>You have a total score of <span class ="score">0</span> out of 500.</h2>
         <img class = "endpic" src = "images/pennave.jpg" alt = "DC">
       </div>
       <div id ="under300">
-      <h4> You should get out more and explore DC!</h4>
-      <h2>You have a total score of <span class ="score">0</span> out of 500.</h2>
-      <img class = "endpic" src = "images/helicopter.jpg" alt = "DC">
-    </div>
+        <h4> You should get out more and explore DC!</h4>
+        <h2>You have a total score of <span class ="score">0</span> out of 500.</h2>
+        <img class = "endpic" src = "images/helicopter.jpg" alt = "DC">
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script  src="script.js"></script>

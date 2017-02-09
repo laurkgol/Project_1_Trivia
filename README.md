@@ -1,3 +1,7 @@
+<!-- Add a header here with your project's name and your name beneath it -->
+# DC Trivia
+*By Laura Goldstein*
+
 # Technologies Used
 * **HTML, CSS, javaScript**
 * **jQuery**
@@ -9,13 +13,22 @@
 * **Added questions to Object**
 * **Used another object to keep game values and function to interchange trivia questions**
 * **Called function in click event to alert to correct or incorrect answers and advance questions**
+<!-- In this section, try to describe your code at a higher, more strategic, level rather than
+going over the nuts and bolts of how it works. For example:
+Bullet 2 - Utilized objects to modularize and organize question data. -->
 
 #Installation Instructions
 * **Place URL into browser**
+<!-- For this section, list all the steps neccesary for somone looking at your repo on GitHub
+to clone it down and open it in their local browser -->
+
 # Unsolved Problems
 * **Spacing is a bit wonky**
 * **Was not able to add another round**
+
+
 # User Stories
+
 ## Bronze Level
 * **Click "Let's Play" to get to questions**
 * **Able to click on multiple choice answer**
@@ -36,4 +49,7 @@
 * **DC Flag: https://s-media-cache-ak0.pinimg.com/originals/16/48/87/16488728a4c771820775fb00b5bf5c32.jpg**
 * **Question One: Executive Office Building- http://s3.amazonaws.com/smithgroupjjr/project_images/images/000/001/363/normal/EisenhowerExecutiveOfficeBuilding-1-th.jpg?1366174898**
 * **Question Two: Lincoln's Cottage-https://media-cdn.tripadvisor.com/media/photo-s/01/0e/50/31/back-porch-lincoln-cottage.jpg**
-* **Question Three - Five: Taken by Laura Goldstein.
+* **Question Three - Five: Taken by Laura Goldstein.**
+
+<!-- Great descriptive readme! It has all the neccessary elements and goes a long way
+towards giving insight into the workings of the app and your development process. -->
