@@ -14,8 +14,8 @@ body{
   width: 75%;
   padding-left: 30pt;
   padding-right: 30pt;
-  padding-top:20pt;
-  padding-bottom: 30pt;
+  padding-top:10pt;
+  padding-bottom: 10pt;
   margin-top: 60pt;
   margin-bottom: 75pt;
   text-align: center;
@@ -81,11 +81,10 @@ button{
   padding-right: 5pt;
 }
 .question-image{
-  width: 50%;
-  height: 50%;
+  /*width: 50%;*/
+  height: 50vh;
   display: block;
   float: left;
-  margin-bottom: 5%;
   border-color:  #e1c49a;
   border-style: solid;
   border-width: 30px;
