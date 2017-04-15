@@ -63,7 +63,6 @@ button{
   border-radius: 10pt;
   color: white;
   background-color:rgba(114, 172, 248, 1)
-
 }
 
 .round, .question{
@@ -129,3 +128,33 @@ button:focus {
   box-shadow: 2px 2px 4px #000000;
   order-color:  #e1c49a;
 }
+/*points animation
+.addPoints{
+  display: none;
+}
+.noPoints{
+  display: none;
+}
+
+.addPoints.horizTranslate {
+  display: block;
+  color: green;
+  font-size: 50pt;
+  postion: fixed;
+  left: 1000px;
+  top: 1000px;
+  /*-webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+  transition: 3s;
+  margin-left: 50% !important;*/
+/*}
+
+@keyframes .addPoints.horizTranslate {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+}*/

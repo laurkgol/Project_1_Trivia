@@ -81,16 +81,10 @@ var game = {
      for(var i = 0; i < `${questions[this.currentQuestion].options.length}`; i++){
       $('.answerButton').eq(i).text(`${questions[this.currentQuestion].options[i]}`);
       var questionAttachedToButton = `${questions[this.currentQuestion].options[i]}`
-      console.log(questions[this.currentQuestion].answer)
       if(questionAttachedToButton === questions[this.currentQuestion].answer){
-        // console.log(`${questions[this.currentQuestion].options[i]}`)
-        //console.log($('answerButton').eq(i).text())
-        console.log("Truth!");
         $('.answerButton').eq(i).addClass("correctAnswer");
-        //`${questions[this.currentQuestion].options[i].addClass('correctAnswer')}`
       }
     }
-
 }
 
  };
@@ -99,6 +93,7 @@ $(".play").on("click", game.home.bind(game));
 $(".answerButton").on("click", function(){
   if($(this).hasClass('correctAnswer')){
     alert("Correct!\n+100");
+    $(".addPoints").addClass('horizTranslate');
      game.score = game.score + 100;
      game.currentQuestion += 1;
      console.log(game.currentQuestion)
@@ -119,14 +114,7 @@ if(game.currentQuestion == questions.length - 1){
   } else{
     $("#under300").css("display", "block");
   }
-} else{
-  game.home();
-}
-
-
-
-
-
-
+  } else{
+    game.home();
+  }
 })
-//$(".answerButton").on("click", game.answer.bind(game));
