@@ -10,11 +10,6 @@
 * **Used another object to keep game values and function to interchange trivia questions**
 * **Called function in click event to alert to correct or incorrect answers and advance questions**
 
-#Installation Instructions
-* **Place URL into browser**
-# Unsolved Problems
-* **Spacing is a bit wonky**
-* **Was not able to add another round**
 # User Stories
 ## Bronze Level
 * **Click "Let's Play" to get to questions**
