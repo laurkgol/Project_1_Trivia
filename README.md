@@ -1,10 +1,10 @@
-# Technologies Used
+## Technologies Used
 * **HTML, CSS, javaScript**
 * **jQuery**
 * **Objects and arrays**
 * **functions and for loops**
 
-#Approach Taken
+## Approach Taken
 * **Set up empty divs in HTML**
 * **Added questions to Object**
 * **Used another object to keep game values and function to interchange trivia questions**
@@ -26,7 +26,7 @@
 * **Add animation that will show points adding up when they are scored**
 * **Add sound to clicks and correct and incorrect answers**
 
-##Images:
+## Images:
 * **DC Map: Google Maps**
 * **DC Flag: https://s-media-cache-ak0.pinimg.com/originals/16/48/87/16488728a4c771820775fb00b5bf5c32.jpg**
 * **Question One: Executive Office Building- http://s3.amazonaws.com/smithgroupjjr/project_images/images/000/001/363/normal/EisenhowerExecutiveOfficeBuilding-1-th.jpg?1366174898**
