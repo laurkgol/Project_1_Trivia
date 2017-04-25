@@ -158,3 +158,23 @@ button:focus {
     75%  {top: 200px;}
     100% {top: 0px;}
 }*/
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body{
+
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-size: 50pt;
+      width: 100%;
+    }
+
+    .question-image{
+      width: 75%;
+      height: 25vh;
+    }
+}
